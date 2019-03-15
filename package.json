@@ -1,0 +1,38 @@
+{
+  "name": "react-simple",
+  "version": "1.0.0",
+  "description": "Create an react sample website",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "reactjs",
+    "sample",
+    "app"
+  ],
+  "author": "BinhLam",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-redux": "^6.0.1",
+    "redux-actions": "^2.6.5",
+    "redux-thunks": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
